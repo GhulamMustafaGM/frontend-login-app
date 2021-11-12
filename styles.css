@@ -1,0 +1,42 @@
+html,
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    height: 100%;
+    align-content: center;
+}
+
+.card {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 435px;
+    border: 0;
+}
+
+.bgcard {
+    background-image: linear-gradient(to bottom right, red, rgb(123, 1, 1));
+}
+
+.social_icon span {
+    font-size: 30px;
+    margin-left: 10px;
+    color: #FFC312;
+}
+
+.social_icon span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.social_icon {
+    position: absolute;
+    right: 20px;
+    top: 0px;
+}
